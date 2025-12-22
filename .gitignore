@@ -1,0 +1,13 @@
+# Docking outputs
+*.map
+*.log
+
+# PyMOL
+*.pse
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+

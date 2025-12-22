@@ -1,0 +1,18 @@
+receptor = ache_1eve_vina.pdbqt
+ligand = donepezil.pdbqt
+
+center_x = 6.503
+center_y = 68.673
+center_z = 63.189
+
+size_x = 22
+size_y = 22
+size_z = 22
+
+exhaustiveness = 8
+num_modes = 9
+
+
+
+
+
