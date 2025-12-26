@@ -52,3 +52,9 @@ Several residues appear consistently across multiple docking poses, suggesting s
 ---
 
 <img width="790" height="490" alt="top15" src="https://github.com/user-attachments/assets/32603244-b8a8-4029-bf7b-faba6d6941c7" />
+
+---
+
+## for jupyter notebook: https://github.com/kubrayill/ache-donepezil-docking/blob/main/analysis/analysis.ipynb
+
+---
