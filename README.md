@@ -64,8 +64,7 @@ Residues within **4 Å** of a ligand are generally considered part of the **bind
 
 ## Results
 
-![Top 15 AChE residues interacting with Donepezil](<img width="989" height="490" alt="figures:top15_contacts" src="https://github.com/user-attachments/assets/fa75d370-aa53-4ac4-837b-3f5d5d5c7038" />
-) 
+![Top 15 AChE residues interacting with Donepezil] (<img width="989" height="490" alt="figures:top15_contacts" src="https://github.com/user-attachments/assets/fa75d370-aa53-4ac4-837b-3f5d5d5c7038" />) 
 
 
 ---
@@ -77,9 +76,8 @@ This project demonstrates a simple and reproducible workflow for:
 - Performing quantitative analysis in Python
 
 ---
-[Uploading analysis.ipynb…]()
 
-To Open in Jupyter: ([Uploading analysis.ipynb…]())
+To Open in Jupyter: (analysis/analysis.ipynb)
 
 
 ## Author
