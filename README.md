@@ -1,89 +1,60 @@
-# Analysis of AChE–Donepezil Interactions Using PyMOL and Python
-
-##  Project Overview
-This project investigates the interactions between **acetylcholinesterase (AChE)** and the Alzheimer’s drug **Donepezil**.  
-Using **PyMOL**, amino acid residues located within **4 Å** of Donepezil in the AChE binding pocket were identified.  
-The resulting contact data were then analyzed and visualized in **Python (Jupyter Notebook)**.
-
-The goal of this project is to identify amino acid residues located within 4 Å of Donepezil and to rank them based on the number of atomic contacts observed in a single docked structure.
-
+# AChE–Donepezil Docking Contact Analysis
 
 ---
 
-##  Scientific Background
-Acetylcholinesterase (AChE) is a key enzyme involved in the breakdown of acetylcholine.  
-Donepezil is a reversible AChE inhibitor commonly used in the treatment of Alzheimer’s disease.
-
-Residues within **4 Å** of a ligand are generally considered part of the **binding pocket** and have a high potential to interacting.
+## Overview
+This project investigates the amino acid residues of acetylcholinesterase (AChE) that are most frequently involved in interactions with Donepezil. Residue–ligand contacts within a 4 Å distance were extracted from multiple docking poses and analyzed to identify residues that consistently contribute to ligand binding.
 
 ---
 
-##  Tools & Technologies
-- **PyMOL** – structural visualization and contact selection  
-- **Python** – data analysis  
-- **Pandas** – data manipulation  
-- **Matplotlib** – visualization  
-- **Jupyter Notebook** – interactive analysis  
-- **Git & GitHub** – version control
+## Workflow
+Protein structure (1EVE)  
+→ Donepezil docking with multiple poses  
+→ Contact extraction in PyMOL (4 Å cutoff)  
+→ Contact aggregation across poses  
+→ Frequency analysis in Python  
+→ Visualization in Jupyter Notebook  
 
 ---
 
-## Methodology
+## Aim
+The aim of this study is to move beyond single-pose docking analysis by incorporating multiple docking poses and evaluating contact frequency as an indicator of interaction stability. Residues that repeatedly appear in contact with Donepezil across different poses are considered more likely to play a significant role in binding.
 
-### 1. Structure Preparation
-- AChE–Donepezil complex structure was loaded into PyMOL.
-- Protein and ligand were separated into distinct selections.
+---
 
-### 2. Contact Identification (PyMOL)
-- Amino acid residues within **4 Å** of Donepezil were selected.
-- Atomic-level contacts were extracted.
-- Contact data were exported as a CSV file.
+## Materials and Methods
 
-### 3. Data Analysis (Python)
-- Duplicate residues were handled appropriately.
-- Contact frequency per residue was calculated.
-- Residues were ranked based on the number of atomic contacts.
+### Structural Data
+The protein structure used in this study is acetylcholinesterase (PDB ID: 1EVE). Donepezil was used as the ligand. Docking output containing multiple ligand poses served as the input for contact analysis.
 
-### 4. Visualization
-- The **Top 15 interacting residues** were visualized using a bar chart.
-- Results highlight residues with the highest interaction potential.
+---
+
+### Contact Definition
+A contact was defined when any atom of a residue was located within 4 Å of any atom of the ligand. Contacts were identified separately for each docking pose.
 
 ---
 
 
-## Key Results
-- These residues (e.g., TRP, PHE, TYR) are consistent with known AChE binding pocket characteristics.
-- Contact frequency provides a simple but effective proxy for interaction strength.
+### Tools and Software
+PyMOL was used for molecular visualization and residue selection. Contact data were exported as CSV files and analyzed using Python with pandas. Data visualization was performed in Jupyter Notebook using matplotlib.
 
 ---
 
-## Results
 
-Top 15 AChE residues interacting with Donepezil
-
----
-
-<img width="989" height="490" alt="figures:top15_contacts" src="https://github.com/user-attachments/assets/fa75d370-aa53-4ac4-837b-3f5d5d5c7038" />
-
+## Analysis
+Contacts from all docking poses were aggregated and grouped by residue name, residue number, and chain identifier. Residues were ranked based on their frequency of occurrence across all poses. Higher contact frequency was interpreted as stronger or more stable involvement in ligand binding.
 
 ---
 
-## Conclusions
-This project demonstrates a simple and reproducible workflow for:
-- Identifying ligand–protein interactions
-- Extracting structural data from PyMOL
-- Performing quantitative analysis in Python
+## Results and Interpretation
+Several residues appear consistently across multiple docking poses, suggesting stable participation in Donepezil binding. Aromatic residues show particularly high contact frequencies, which is consistent with known features of the acetylcholinesterase active site.
 
 ---
 
-To Open in Jupyter: (analysis/analysis.ipynb)
+<img width="790" height="490" alt="top15" src="https://github.com/user-attachments/assets/32603244-b8a8-4029-bf7b-faba6d6941c7" />
 
+---
 
 ## Author
-**Kübra Yılmaz**  
-Chemistry Student – Marmara University  
-
-
-
-
-
+Kübra Yılmaz  
+Chemistry student with interests in cheminformatics and molecular modeling
