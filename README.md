@@ -56,8 +56,7 @@ Residues within **4 Å** of a ligand are generally considered part of the **bind
 ---
 
 ## Key Results
-- Multiple **aromatic residues** (e.g., TRP, PHE, TYR) show high contact frequencies.
-- These residues are consistent with known AChE binding pocket characteristics.
+- These residues (e.g., TRP, PHE, TYR) are consistent with known AChE binding pocket characteristics.
 - Contact frequency provides a simple but effective proxy for interaction strength.
 
 ---
