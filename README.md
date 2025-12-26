@@ -64,7 +64,7 @@ Residues within **4 Å** of a ligand are generally considered part of the **bind
 
 ## Results
 
-![Top 15 AChE residues interacting with Donepezil](figures/top15_contacts.png)
+![Top 15 AChE residues interacting with Donepezil](figures/top15_contacts.png) 
 
 
 ---
