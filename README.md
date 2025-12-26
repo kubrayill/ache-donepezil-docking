@@ -7,7 +7,6 @@ The resulting contact data were then analyzed and visualized in **Python (Jupyte
 
 The goal of this project is to identify amino acid residues located within 4 Å of Donepezil and to rank them based on the number of atomic contacts observed in a single docked structure.
 
-Note: Contact counts were obtained from a single docked structure and represent atomic contact occurrence rather than dynamic interaction frequency.
 
 ---
 
@@ -15,11 +14,7 @@ Note: Contact counts were obtained from a single docked structure and represent 
 Acetylcholinesterase (AChE) is a key enzyme involved in the breakdown of acetylcholine.  
 Donepezil is a reversible AChE inhibitor commonly used in the treatment of Alzheimer’s disease.
 
-Residues within **4 Å** of a ligand are generally considered part of the **binding pocket** and have a high potential to participate in:
-- π–π stacking interactions
-- Hydrogen bonding
-- Hydrophobic interactions
-- van der Waals contacts
+Residues within **4 Å** of a ligand are generally considered part of the **binding pocket** and have a high potential to interacting.
 
 ---
 
