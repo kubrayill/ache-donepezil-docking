@@ -77,6 +77,9 @@ This project demonstrates a simple and reproducible workflow for:
 
 ---
 
+To Open in Jupyter: analysis/analysis.ipynb
+
+
 ## Author
 **Kübra Yılmaz**  
 Chemistry Student – Marmara University  
