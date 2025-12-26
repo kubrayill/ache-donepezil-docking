@@ -11,7 +11,7 @@ This project investigates the amino acid residues of acetylcholinesterase (AChE)
 Protein structure (1EVE)  
 → Donepezil docking with multiple poses  
 → Contact extraction in PyMOL (4 Å cutoff)  
-→ Contact aggregation across poses  
+→ Contact gathering across poses  
 → Frequency analysis in Python  
 → Visualization in Jupyter Notebook  
 
@@ -42,7 +42,7 @@ PyMOL was used for molecular visualization and residue selection. Contact data w
 
 
 ## Analysis
-Contacts from all docking poses were aggregated and grouped by residue name, residue number, and chain identifier. Residues were ranked based on their frequency of occurrence across all poses. Higher contact frequency was interpreted as stronger or more stable involvement in ligand binding.
+Contacts from all docking poses were gathered and grouped by residue name, residue number, and chain identifier. Residues were ranked based on their frequency of occurrence across all poses. Higher contact frequency was interpreted as stronger or more stable involvement in ligand binding.
 
 ---
 
