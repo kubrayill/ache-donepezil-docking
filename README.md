@@ -55,9 +55,17 @@ Residues within **4 Å** of a ligand are generally considered part of the **bind
 
 ---
 
+
 ## Key Results
 - These residues (e.g., TRP, PHE, TYR) are consistent with known AChE binding pocket characteristics.
 - Contact frequency provides a simple but effective proxy for interaction strength.
+
+---
+
+## Results
+
+![Top 15 AChE residues interacting with Donepezil](figures/top15_contacts.png)
+
 
 ---
 
