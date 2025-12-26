@@ -1,0 +1,16 @@
+resname,resid,chain,atomic_contact_count
+ARG,289,A,1
+GLU,199,A,1
+GLY,117,A,1
+GLY,118,A,1
+GLY,123,A,1
+HIS,440,A,1
+ILE,287,A,1
+LEU,127,A,1
+PHE,288,A,1
+PHE,330,A,1
+PHE,331,A,1
+SER,286,A,1
+TRP,84,A,1
+TRP,279,A,1
+TYR,70,A,1
