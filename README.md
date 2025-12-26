@@ -61,6 +61,27 @@ Residues within **4 Å** of a ligand are generally considered part of the **bind
 ---
 
 ## Project Structure
+.
+├── ache_donepezil_contacts.csv
+├── top15_donepezil_ache_residues.csv
+├── analysis.ipynb
+├── figures/
+│ └── top15_contacts.png
+└── README.md
+
+---
+
+## Conclusions
+This project demonstrates a simple and reproducible workflow for:
+- Identifying ligand–protein interactions
+- Extracting structural data from PyMOL
+- Performing quantitative analysis in Python
+
+---
+
+## Author
+**Kübra Yılmaz**  
+Chemistry Student – Marmara University  
 
 
 
