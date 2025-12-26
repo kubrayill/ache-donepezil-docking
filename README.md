@@ -52,9 +52,3 @@ Several residues appear consistently across multiple docking poses, suggesting s
 ---
 
 <img width="790" height="490" alt="top15" src="https://github.com/user-attachments/assets/32603244-b8a8-4029-bf7b-faba6d6941c7" />
-
----
-
-## Author
-Kübra Yılmaz  
-Chemistry student with interests in cheminformatics and molecular modeling
