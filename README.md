@@ -5,7 +5,7 @@ This project investigates the interactions between **acetylcholinesterase (AChE)
 Using **PyMOL**, amino acid residues located within **4 Å** of Donepezil in the AChE binding pocket were identified.  
 The resulting contact data were then analyzed and visualized in **Python (Jupyter Notebook)**.
 
-The goal of this project is to identify and rank the **amino acid residues most likely to interact with Donepezil**, based on atomic contact frequency.
+The goal of this project is to identify amino acid residues located within 4 Å of Donepezil and to rank them based on the number of atomic contacts observed in a single docked structure.
 
 ---
 
