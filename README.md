@@ -7,6 +7,8 @@ The resulting contact data were then analyzed and visualized in **Python (Jupyte
 
 The goal of this project is to identify amino acid residues located within 4 Å of Donepezil and to rank them based on the number of atomic contacts observed in a single docked structure.
 
+Note: Contact counts were obtained from a single docked structure and represent atomic contact occurrence rather than dynamic interaction frequency.
+
 ---
 
 ##  Scientific Background
